@@ -45,9 +45,7 @@ The Todo App allows users to:
 
 ## Deployment
 
-- This project is deployed on [Vercel](vercel.com).
-
-- You can view the live demo [here](here).
+- You can view the live demo [here](https://todo-app-beta-one-13.vercel.app/).
 
 ---
 
