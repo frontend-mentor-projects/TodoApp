@@ -20,19 +20,19 @@ The Todo App allows users to:
 
 1. **Light Mode Interface**
 
-![Light Mode](screenshots/light-mode.png)
+![Light Mode](screenshots/light_mode.png)
 
 2. **Dark Mode Interface**
 
-![Dark Mode](screenshots/dark-mode.png)
+![Dark Mode](screenshots/dark_mode.png)
 
 3. **Adding Todos**
 
-![Adding Todos](screenshots/add-todos.png)
+![Adding Todos](screenshots/add_todos.png)
 
 4. **Marking as Completed**
 
-![Marking as Completed](screenshots/mark-todos-completed.png)
+![Marking as Completed](screenshots/mark_todos_completed.png)
 
 ## Technologies Used
 
