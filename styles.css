@@ -64,6 +64,7 @@ body:before {
 @media (max-width: 500px) {
   body:before {
     background-image: url("../images/bg-mobile-light.jpg");
+    height: 30%;
   }
 }
 
@@ -264,10 +265,6 @@ form {
 .todo.completed .todo-text {
   color: var(--dark-grayish-blue);
   text-decoration: line-through;
-}
-
-.cross-btn {
-  display: none;
 }
 
 .footer-container {
