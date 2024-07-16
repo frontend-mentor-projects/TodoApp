@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Todo app</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-container">
+        <h1>TODO</h1>
+        <button type="button" id="darkModeToggle">
+          <img src="/images/icon-moon.svg" alt="Toggle Dark Mode" />
+        </button>
+      </div>
+      <div class="todo-form-container">
+        <form class="todo-form">
+          <button type="submit">
+            <div class="circle"></div>
+          </button>
+          <input
+            type="text"
+            class="todo-input"
+            placeholder="Create a new todo..."
+          />
+        </form>
+      </div>
+      <div class="todos-container">
+        <div class="content-container"></div>
+        <div class="footer-container">
+          <small class="remaining-todos"></small>
+          <div class="filter-container">
+            <button type="button" class="filter filter-all active">All</button>
+            <button type="button" class="filter filter-active">Active</button>
+            <button type="button" class="filter filter-completed">
+              Completed
+            </button>
+          </div>
+          <button type="button" class="clear-completed">Clear Completed</button>
+        </div>
+      </div>
+      <div class="drag">Drag and drop to reorder list</div>
+    </div>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
